@@ -11,9 +11,18 @@ export default {
   },
   dark: {
     text: '#fff',
-    background: '#000',
+    background: '#323d45',
     tint: tintColorDark,
     tabIconDefault: '#ccc',
     tabIconSelected: tintColorDark,
   },
+  palleteColor: {
+    green: '#4ea811',
+    gray: '#a9a9a9',
+    lightGray: '#eee',
+    darkGray: '#545454',
+    black: '#000',
+    white: '#fff'
+
+  }
 };

@@ -19,7 +19,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.roaTechie.Dude-Garden-Care",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,7 +30,18 @@
       }
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyBerC-eXHL5s-_3QuU0tSfFSq26u15ut4I",
+          "authDomain": "dude-garden-care.firebaseapp.com",
+          "databaseURL": "https://dude-garden-care.firebaseio.com",
+          "projectId": "dude-garden-care",
+          "storageBucket": "dude-garden-care.appspot.com",
+          "messagingSenderId": "130253913731",
+          "appId": "1:130253913731:web:e78354bc83d0ef08"
+        }
+      }
     }
   }
 }
